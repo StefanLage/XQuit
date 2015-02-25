@@ -15,7 +15,7 @@ static NSString * const applicationTitle    = @"Xcode";
 static NSString * const menuTitle           = @"Xcode";
 static NSString * const itemTitle           = @"Quit Xcode";
 static NSString * const positiveButton      = @"Yes";
-static NSString * const negativeButton      = @"No";
+static NSString * const negativeButton      = @"Cancel";
 
 @interface XQuit()
 
