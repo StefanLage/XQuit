@@ -7,78 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F81E35C819911DA800E6BEAD /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81E35C719911DA800E6BEAD /* AppKit.framework */; };
-		F81E35CA19911DA800E6BEAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81E35C919911DA800E6BEAD /* Foundation.framework */; };
-		F81E35D019911DA800E6BEAD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F81E35CE19911DA800E6BEAD /* InfoPlist.strings */; };
-		F81E35D319911DA800E6BEAD /* XQuit.m in Sources */ = {isa = PBXBuildFile; fileRef = F81E35D219911DA800E6BEAD /* XQuit.m */; };
+		F82644FA1BAA1667005D080E /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82644F91BAA1667005D080E /* AppKit.framework */; };
+		F82644FC1BAA1667005D080E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82644FB1BAA1667005D080E /* Foundation.framework */; };
+		F82645011BAA1667005D080E /* XQuit.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = F82645001BAA1667005D080E /* XQuit.xcscheme */; };
+		F82645041BAA1667005D080E /* XQuit.m in Sources */ = {isa = PBXBuildFile; fileRef = F82645031BAA1667005D080E /* XQuit.m */; };
+		F82645071BAA1667005D080E /* NSObject_Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = F82645061BAA1667005D080E /* NSObject_Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F81E35C419911DA800E6BEAD /* XQuit.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQuit.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
-		F81E35C719911DA800E6BEAD /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		F81E35C919911DA800E6BEAD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		F81E35CD19911DA800E6BEAD /* XQuit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XQuit-Info.plist"; sourceTree = "<group>"; };
-		F81E35CF19911DA800E6BEAD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		F81E35D119911DA800E6BEAD /* XQuit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQuit.h; sourceTree = "<group>"; };
-		F81E35D219911DA800E6BEAD /* XQuit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQuit.m; sourceTree = "<group>"; };
-		F81E35D419911DA800E6BEAD /* XQuit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XQuit-Prefix.pch"; sourceTree = "<group>"; };
+		F82644F61BAA1667005D080E /* XQuit.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XQuit.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		F82644F91BAA1667005D080E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		F82644FB1BAA1667005D080E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		F82644FF1BAA1667005D080E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F82645001BAA1667005D080E /* XQuit.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = XQuit.xcscheme; path = XQuit.xcodeproj/xcshareddata/xcschemes/XQuit.xcscheme; sourceTree = SOURCE_ROOT; };
+		F82645021BAA1667005D080E /* XQuit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQuit.h; sourceTree = "<group>"; };
+		F82645031BAA1667005D080E /* XQuit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XQuit.m; sourceTree = "<group>"; };
+		F82645051BAA1667005D080E /* NSObject_Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSObject_Extension.h; sourceTree = "<group>"; };
+		F82645061BAA1667005D080E /* NSObject_Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObject_Extension.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F81E35C119911DA800E6BEAD /* Frameworks */ = {
+		F82644F41BAA1667005D080E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F81E35C819911DA800E6BEAD /* AppKit.framework in Frameworks */,
-				F81E35CA19911DA800E6BEAD /* Foundation.framework in Frameworks */,
+				F82644FA1BAA1667005D080E /* AppKit.framework in Frameworks */,
+				F82644FC1BAA1667005D080E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F81E35BB19911DA800E6BEAD = {
+		F82644ED1BAA1667005D080E = {
 			isa = PBXGroup;
 			children = (
-				F81E35CB19911DA800E6BEAD /* XQuit */,
-				F81E35C619911DA800E6BEAD /* Frameworks */,
-				F81E35C519911DA800E6BEAD /* Products */,
+				F82644FD1BAA1667005D080E /* XQuit */,
+				F82644F81BAA1667005D080E /* Frameworks */,
+				F82644F71BAA1667005D080E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F81E35C519911DA800E6BEAD /* Products */ = {
+		F82644F71BAA1667005D080E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F81E35C419911DA800E6BEAD /* XQuit.xcplugin */,
+				F82644F61BAA1667005D080E /* XQuit.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F81E35C619911DA800E6BEAD /* Frameworks */ = {
+		F82644F81BAA1667005D080E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F81E35C719911DA800E6BEAD /* AppKit.framework */,
-				F81E35C919911DA800E6BEAD /* Foundation.framework */,
+				F82644F91BAA1667005D080E /* AppKit.framework */,
+				F82644FB1BAA1667005D080E /* Foundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F81E35CB19911DA800E6BEAD /* XQuit */ = {
+		F82644FD1BAA1667005D080E /* XQuit */ = {
 			isa = PBXGroup;
 			children = (
-				F81E35D119911DA800E6BEAD /* XQuit.h */,
-				F81E35D219911DA800E6BEAD /* XQuit.m */,
-				F81E35CC19911DA800E6BEAD /* Supporting Files */,
+				F82645021BAA1667005D080E /* XQuit.h */,
+				F82645031BAA1667005D080E /* XQuit.m */,
+				F82645051BAA1667005D080E /* NSObject_Extension.h */,
+				F82645061BAA1667005D080E /* NSObject_Extension.m */,
+				F82644FE1BAA1667005D080E /* Supporting Files */,
 			);
 			path = XQuit;
 			sourceTree = "<group>";
 		};
-		F81E35CC19911DA800E6BEAD /* Supporting Files */ = {
+		F82644FE1BAA1667005D080E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F81E35CD19911DA800E6BEAD /* XQuit-Info.plist */,
-				F81E35CE19911DA800E6BEAD /* InfoPlist.strings */,
-				F81E35D419911DA800E6BEAD /* XQuit-Prefix.pch */,
+				F82644FF1BAA1667005D080E /* Info.plist */,
+				F82645001BAA1667005D080E /* XQuit.xcscheme */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -86,13 +89,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F81E35C319911DA800E6BEAD /* XQuit */ = {
+		F82644F51BAA1667005D080E /* XQuit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F81E35D719911DA800E6BEAD /* Build configuration list for PBXNativeTarget "XQuit" */;
+			buildConfigurationList = F826450A1BAA1667005D080E /* Build configuration list for PBXNativeTarget "XQuit" */;
 			buildPhases = (
-				F81E35C019911DA800E6BEAD /* Sources */,
-				F81E35C119911DA800E6BEAD /* Frameworks */,
-				F81E35C219911DA800E6BEAD /* Resources */,
+				F82644F21BAA1667005D080E /* Sources */,
+				F82644F31BAA1667005D080E /* Resources */,
+				F82644F41BAA1667005D080E /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -100,71 +103,65 @@
 			);
 			name = XQuit;
 			productName = XQuit;
-			productReference = F81E35C419911DA800E6BEAD /* XQuit.xcplugin */;
+			productReference = F82644F61BAA1667005D080E /* XQuit.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F81E35BC19911DA800E6BEAD /* Project object */ = {
+		F82644EE1BAA1667005D080E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = XQ;
-				LastUpgradeCheck = 0510;
-				ORGANIZATIONNAME = StefanLage;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Stefan Lage";
+				TargetAttributes = {
+					F82644F51BAA1667005D080E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
 			};
-			buildConfigurationList = F81E35BF19911DA800E6BEAD /* Build configuration list for PBXProject "XQuit" */;
+			buildConfigurationList = F82644F11BAA1667005D080E /* Build configuration list for PBXProject "XQuit" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F81E35BB19911DA800E6BEAD;
-			productRefGroup = F81E35C519911DA800E6BEAD /* Products */;
+			mainGroup = F82644ED1BAA1667005D080E;
+			productRefGroup = F82644F71BAA1667005D080E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F81E35C319911DA800E6BEAD /* XQuit */,
+				F82644F51BAA1667005D080E /* XQuit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F81E35C219911DA800E6BEAD /* Resources */ = {
+		F82644F31BAA1667005D080E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F81E35D019911DA800E6BEAD /* InfoPlist.strings in Resources */,
+				F82645011BAA1667005D080E /* XQuit.xcscheme in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F81E35C019911DA800E6BEAD /* Sources */ = {
+		F82644F21BAA1667005D080E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F81E35D319911DA800E6BEAD /* XQuit.m in Sources */,
+				F82645041BAA1667005D080E /* XQuit.m in Sources */,
+				F82645071BAA1667005D080E /* NSObject_Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		F81E35CE19911DA800E6BEAD /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F81E35CF19911DA800E6BEAD /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		F81E35D519911DA800E6BEAD /* Debug */ = {
+		F82645081BAA1667005D080E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -179,11 +176,13 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -196,13 +195,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
 			};
 			name = Debug;
 		};
-		F81E35D619911DA800E6BEAD /* Release */ = {
+		F82645091BAA1667005D080E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -217,48 +215,46 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				COPY_PHASE_STRIP = NO;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				SDKROOT = macosx;
+				MTL_ENABLE_DEBUG_INFO = NO;
 			};
 			name = Release;
 		};
-		F81E35D819911DA800E6BEAD /* Debug */ = {
+		F826450B1BAA1667005D080E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "XQuit/XQuit-Prefix.pch";
-				INFOPLIST_FILE = "XQuit/XQuit-Info.plist";
+				INFOPLIST_FILE = XQuit/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
 		};
-		F81E35D919911DA800E6BEAD /* Release */ = {
+		F826450C1BAA1667005D080E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "XQuit/XQuit-Prefix.pch";
-				INFOPLIST_FILE = "XQuit/XQuit-Info.plist";
+				INFOPLIST_FILE = XQuit/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xcplugin;
 			};
@@ -267,24 +263,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F81E35BF19911DA800E6BEAD /* Build configuration list for PBXProject "XQuit" */ = {
+		F82644F11BAA1667005D080E /* Build configuration list for PBXProject "XQuit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F81E35D519911DA800E6BEAD /* Debug */,
-				F81E35D619911DA800E6BEAD /* Release */,
+				F82645081BAA1667005D080E /* Debug */,
+				F82645091BAA1667005D080E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F81E35D719911DA800E6BEAD /* Build configuration list for PBXNativeTarget "XQuit" */ = {
+		F826450A1BAA1667005D080E /* Build configuration list for PBXNativeTarget "XQuit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F81E35D819911DA800E6BEAD /* Debug */,
-				F81E35D919911DA800E6BEAD /* Release */,
+				F826450B1BAA1667005D080E /* Debug */,
+				F826450C1BAA1667005D080E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F81E35BC19911DA800E6BEAD /* Project object */;
+	rootObject = F82644EE1BAA1667005D080E /* Project object */;
 }
